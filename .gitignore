@@ -1,19 +1,144 @@
-PVS/v0/T1.PVS/20210304-114815_Unet.8.7.2.T1.VRS_finalk751_fold_0_model.h5
-PVS/v0/T1.PVS/20210304-114815_Unet.8.7.2.T1.VRS_finalk751_fold_1_model.h5
-PVS/v0/T1.PVS/20210304-114815_Unet.8.7.2.T1.VRS_finalk751_fold_2_model.h5
-PVS/v0/T1.PVS/20210304-114815_Unet.8.7.2.T1.VRS_finalk751_fold_3_model.h5
-PVS/v0/T1.PVS/20210304-114815_Unet.8.7.2.T1.VRS_finalk751_fold_4_model.h5
-PVS/v0/v0-T1.PVS.tgz
-PVS/v1/v1-T1-FLAIR.PVS.tgz
-PVS/v1/v1-T1.PVS.tgz
-PVS/v1/T1-FLAIR.PVS/20220223-182702_Unet3Dv2-10.7.2-1.8-T1_FLAIR.VRS_fold_VRS_1x5_fromMH_fold_0_model.h5
-PVS/v1/T1-FLAIR.PVS/20220223-182702_Unet3Dv2-10.7.2-1.8-T1_FLAIR.VRS_fold_VRS_1x5_fromMH_fold_1_model.h5
-PVS/v1/T1-FLAIR.PVS/20220223-182702_Unet3Dv2-10.7.2-1.8-T1_FLAIR.VRS_fold_VRS_1x5_fromMH_fold_2_model.h5
-PVS/v1/T1-FLAIR.PVS/20220223-182702_Unet3Dv2-10.7.2-1.8-T1_FLAIR.VRS_fold_VRS_1x5_fromMH_fold_3_model.h5
-PVS/v1/T1-FLAIR.PVS/20220223-182702_Unet3Dv2-10.7.2-1.8-T1_FLAIR.VRS_fold_VRS_1x5_fromMH_fold_4_model.h5
-PVS/v1/T1.PVS/20211030-162753_Unet3Dv2-10.7.2-1.8-T1.VRS_fold_1x6_pi_fold_0_model.h5
-PVS/v1/T1.PVS/20211030-162753_Unet3Dv2-10.7.2-1.8-T1.VRS_fold_1x6_pi_fold_1_model.h5
-PVS/v1/T1.PVS/20211030-162753_Unet3Dv2-10.7.2-1.8-T1.VRS_fold_1x6_pi_fold_2_model.h5
-PVS/v1/T1.PVS/20211030-162753_Unet3Dv2-10.7.2-1.8-T1.VRS_fold_1x6_pi_fold_3_model.h5
-PVS/v1/T1.PVS/20211030-162753_Unet3Dv2-10.7.2-1.8-T1.VRS_fold_1x6_pi_fold_4_model.h5
-PVS/v1/T1.PVS/20211030-162753_Unet3Dv2-10.7.2-1.8-T1.VRS_fold_1x6_pi_fold_5_model.h5
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+WMH/v0/v0-T1-FLAIR.WMH.tgz
+WMH/v0/T1-FLAIR.WMH/20220412-192541_Unet3Dv2-10.7.2-1.8-FLAIR.WMH_fold_WMH_1x5_2ndUnat_fold_0_model.h5
+WMH/v0/T1-FLAIR.WMH/20220412-192541_Unet3Dv2-10.7.2-1.8-FLAIR.WMH_fold_WMH_1x5_2ndUnat_fold_1_model.h5
+WMH/v0/T1-FLAIR.WMH/20220412-192541_Unet3Dv2-10.7.2-1.8-FLAIR.WMH_fold_WMH_1x5_2ndUnat_fold_2_model.h5
+WMH/v0/T1-FLAIR.WMH/20220412-192541_Unet3Dv2-10.7.2-1.8-FLAIR.WMH_fold_WMH_1x5_2ndUnat_fold_3_model.h5
+WMH/v0/T1-FLAIR.WMH/20220412-192541_Unet3Dv2-10.7.2-1.8-FLAIR.WMH_fold_WMH_1x5_2ndUnat_fold_4_model.h5
+
+WMH/*
+
+output/*
+
+data/*
+
+
+PVS/v1-T1-FLAIR.PVS/*
