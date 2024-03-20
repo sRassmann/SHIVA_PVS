@@ -16,6 +16,7 @@ from glob import glob
 from tqdm import tqdm
 
 size = (160, 214, 176)
+t1_bias_field_cor_path = "../flairsyn/output/original/inference_pvs"
 
 
 @torch.no_grad()
@@ -155,9 +156,10 @@ def main(args):
     files = glob(os.path.join(args.input, "*", args.file))
     print(f"Found {len(files)} files in {args.input}.")
     for input_image in tqdm(files):
+        subj = os.path.dirname(input_image).split("/")[-1]
         predict_image(
             input_image,
-            os.path.join(os.path.dirname(input_image), "t1.nii.gz"),
+            os.path.join(t1_bias_field_cor_path, subj, "t1_n4.nii.gz"),
             input_image.replace(".nii.gz", "_pvs_seg.nii.gz"),
             os.path.join(os.path.dirname(input_image), "mask.nii.gz"),
             predictor_files,
